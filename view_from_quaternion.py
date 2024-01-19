@@ -40,6 +40,11 @@ def quaternion_to_matrix(q):
     return matrix
 
 def main():
+    """
+    Usage:
+    python3 view_from_quaternion.py 0 0 0 1
+    python3 view_from_quaternion.py 0.707 0 0 0.707
+    """
     # クォータニオン
     quaternion = [float(sys.argv[4]), float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])]
 

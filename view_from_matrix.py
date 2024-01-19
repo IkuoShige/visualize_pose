@@ -12,8 +12,8 @@ def create_axes_actor(color, length=1.0):
 def main():
     """
     Usage:
-    python from_matrix.py 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
-    python3 from_matrix.py 0.866 0.5 0 0 -0.5 0.866 0 0 0 0 1 0 0 0 0 1
+    python3 view_from_matrix.py 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+    python3 view_from_matrix.py 0.866 0.5 0 0 -0.5 0.866 0 0 0 0 1 0 0 0 0 1
     """
     # 引数の数を検証
     if len(sys.argv) != 17:
